@@ -164,8 +164,14 @@ export function getNetworkProviderUrl(id) {
       return `https://api.avax-test.network/ext/bc/C/rpc`
     case '43114':
       return `https://api.avax.network/ext/bc/C/rpc`
+    case '50':
+      return `https://rpc.xinfin.yodaplus.net`
+    case '51':
+      return `https://rpc-apothem.xinfin.yodaplus.net`
+    case '1337':
+      return  `http://localhost:8545`
     default:
-      return `https://api.avax.network/ext/bc/C/rpc`
+      return `http://localhost:8545`
   }
 }
 
